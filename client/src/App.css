@@ -1,0 +1,123 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+	padding: 0;
+}
+
+body {
+  background-color: #1d1d1d;
+  color: white;
+}
+
+.navbar {
+  background-color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  border-bottom: 2px solid #fff;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name, .connectBtn {
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.connectBtn button {
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+span {
+  color: rgb(44, 83, 224);
+  font-weight: 800;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.top {
+  display: flex;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.errorSuccess {
+  margin-bottom: 2rem;
+}
+
+.top, h1, p {
+  font-size: 30px;
+  padding: 5px;
+}
+
+.middle {
+  height: 4rem;
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(11, 94, 171);
+}
+
+.left input {
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 20px;
+  margin-left: 50px;
+  height: 2.5rem;
+  width: 30rem;
+}
+
+.right button {
+  height: 3rem;
+  width: 10rem;
+  margin-right: 30px;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  display: flex;
+  color: #fff;
+  background-color: #111111;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: rgb(7, 203, 92);
+}
+
+.buttom {
+  background-color: rgb(75, 75, 75);
+}
+
+.buttom .details {
+  font-size: 24px;
+  margin: 2rem 0rem 0rem 3rem;
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+.faucetIcon {
+  color: red;
+}
+
+.tokenIcon {
+  font-size: 20px;
+  margin-left: 20px;
+  color: rgb(251, 255, 0);
+}
